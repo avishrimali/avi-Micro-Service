@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "aviMicroService",
+    "packageName": "com.vmware.avi.application",
+    "packageFolder": "com/vmware/avi/application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "oauth2",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi"
+  },
+  "git-provider": "GitHub",
+  "git-company": "avishrimali",
+  "repository-name": "avi-Micro-Service"
+}
